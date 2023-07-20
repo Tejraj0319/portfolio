@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&family=Ubuntu:ital@1&family=Varela+Round&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Services</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Rajesh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Downlode resume</button>
+                    <button class="btn">visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="Background Image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text_gray">What I have done so far</span>
+            <h1>Work Experiance</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image_top" src="html.png" alt="">
+                    <div class="vertical_title">
+                        Html developer(2010_2012)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati asperiores quaerat dolor,
+                        culpa rerum maxime vero perferendis illum! Et unde odit delectus nisi.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="css.png" alt="">
+                    <div class="vertical_title">
+                        CSS developer(2012-2014)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati asperiores quaerat dolor,
+                        culpa rerum maxime vero perferendis illum! Et unde odit delectus nisi.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="java.png" alt="">
+                    <div class="vertical_title">
+                        Java developer(2010_2012)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati asperiores quaerat dolor,
+                        culpa rerum maxime vero perferendis illum! Et unde odit delectus nisi.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="javascript.png" alt="">
+                    <div class="vertical_title">
+                        javascript developer(2010_2012)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati asperiores quaerat dolor,
+                        culpa rerum maxime vero perferendis illum! Et unde odit delectus nisi.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="mysql.png" alt="">
+                    <div class="vertical_title">
+                        mysql developer(2010_2012)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati asperiores quaerat dolor,
+                        culpa rerum maxime vero perferendis illum! Et unde odit delectus nisi.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image_top" src="photoshop.png" alt="">
+                    <div class="vertical_title">
+                        photoshop developer(2010_2012)
+                    </div>
+                    <div class="vertical_desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati asperiores quaerat dolor,
+                        culpa rerum maxime vero perferendis illum! Et unde odit delectus nisi.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer_first">
+                <h1>My developer Portfolio</h1>
+            </div>
+            <div class="footer_second">
+                <ul>
+                    <li>Website Templates</li>
+                    <li>Website Builder</li>
+                    <li>Website Design</li>
+                    <li>Wix Features</li>
+                    <li>App Market</li>
+                </ul>
+            </div>
+            <div class="footer_third">
+                <ul>
+                    <li>Online Store</li>
+                    <li>Online Booking</li>
+                    <li>Restaurant Website</li>
+                    <li>Blog Website</li>
+                    <li>Portfolio Website</li>
+                </ul>
+            </div>
+            <div class="footer_fourth">
+                <ul>
+                    <li>Help Center</li>
+                    <li>Hire a Professional</li>
+                    <li>Report Abuse</li>
+                    <li>System Status</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_rights">
+            copyright &#169; www.myportfolio.com | All rights reversed
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Photohop Artist', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
